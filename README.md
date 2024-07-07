@@ -3,7 +3,6 @@
 
 - [Overview](#overview)
   - [Figma Design](#figma-design)
-  - [Outcome](#outcome)
 - [Technologies](#technologies)
 - [Features](#features)
 
