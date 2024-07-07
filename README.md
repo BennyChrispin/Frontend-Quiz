@@ -6,16 +6,6 @@
   - [Outcome](#outcome)
 - [Technologies](#technologies)
 - [Features](#features)
-- [Setup](#setup)
-- [Links](#links)
-- [Testing](#testing)
-  - [Accessibility](#accessibility) 
-  -  [Unit Testing](#unit-testing)
-- [Screenshots](#screenshots)
-- [Retrospectives](#retrospectives)
-- [About The Author](#about-the-author)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Overview
 
@@ -60,89 +50,9 @@ ng serve
 
 ## Links
 
-* [Live Demo](https://za-quiz.netlify.app/)
+* [Live Demo](https://frontend-quiz-seven.vercel.app/)
 
-## Testing
-
-### Accessibility
-
-This app has been crafted with a focus on accessibility, utilizing the Accessibility Linter, IBM Equal Access Accessibility Checker extension, and WCAG extension to adhere to accessibility best practices. Key features include: Zooming,
-Keyboard-only navigation, Static code analysis, Aria rules compliance, and Semantic HTML.
-
-### Unit Testing
-
-To run and execute all the unit tests defined in the project after setting the app in development mode, open a new terminal and write the following:
-
-```shell
-ng test
-```
-
-
-## Screenshots
-
-<details>
-  <summary><b>Some of Accessibility Tests Screenshots</b></summary>
-<p align="center">
-<img src="./public/access1.PNG" alt="Accessibility test 1" width="">
-</p>
-
-<p align="center">
-<img src="./public/access2.PNG" alt="Accessibility test 2" width="350">
-</p>
-</details>
-
-<details>
-  <summary><b>Lighthouse Report</b></summary>
-<p align="center">
-<img src="./public/lighthouse.PNG" alt="Lighthouse tests" width="450">
-</p>
-</details>
-
-<details>
-  <summary><b>Unit Tests Screenshots</b></summary>
-<p align="center">
-<img src="./public/tests.PNG" alt="Unit tests" width="600">
-</p>
-</details>
-
-<details>
-  <summary><b>Firebase</b></summary>
-<p align="center">
-<img src="./public/firestore.PNG" alt="Database" width="800">
-</p>
-</details>
-
-## Retrospectives
-
-> What went well ?
-
-I am proud of accessibility, styling, clean markup, innovative problem-solving, great ux, animation and attention to every detail.
-
-> What has been failed ?
-
-Firebase Unit testing
-
-> What could be improved ?
-
-Your feedback maybe useful at this section.
-
-## About the Author
-
->  In every project I develop, I focus on improving code quality and incorporating new techniques into my development process. I strive to learn from my mistakes by addressing them directly and applying those lessons to future projects. My goal is to continuously refine and enhance ***my standard approach to project development***.
-
-* Portfolio - [Zakaria Ali](https://zaportfolio.netlify.app/)
-* Frontend Mentor Profile - [@Zakaria9375](https://www.frontendmentor.io/profile/Zakaria9375)
-* Project by - [Frontend Mentor team](https://www.frontendmentor.io/)
-
-## Contributing
-
-**Want to contribute?** *Great!* Here’s how you can help:
-
-1. Fork the repo and create your branch from `main`.
-2. Make your changes and test.
-3. Issue that "pull" request!
 
 ## License
 
-MIT License  
-Copyright (c) 2024-present, Zakaria Ali
+Copyright (c) 2024, Benny Chrispin
