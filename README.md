@@ -1,6 +1,3 @@
-# Frontend Mentor - Frontend quiz app solution
-
-This is a solution to the [Frontend quiz app challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/frontend-quiz-app-BE7xkzXQnU). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Table of Contents
 
@@ -40,27 +37,21 @@ The technologies used in this project are:
 
 * HTML & Tailwind & TypeScript
 * Angular (core, animation, angular-fire)
-* Unit testing (Jasmine)
-* Firebase
 
 ## Features
 
 * **Responsive Design**: Ensures the App looks great on all devices.
 * **Accessibility**: Built with accessibility in mind.
 * **Animations**: Smooth animations for all app interactions.
-* **Unit testing**: Comprehensive unit tests to ensure code reliability.
-* **Pixel Perfect**: Almost identical to figma design.
-* **Innovative Solution**: Created innovative solution to complex challenge, demonstrating creativity and problem-solving skills.
 
 ## Setup
 
 To run this app in development mode open the terminal and write the following:
 
 ```shell  
-git clone https://github.com/Zakaria9375/fm-quiz-app.git 
-cd fm-quiz-app  
-npm install 
- 
+git clone https://github.com/BennyChrispin/Frontend-Quiz.git 
+npm install
+
 # you need to install angular cli to run this app in development mode
 npm install -g @angular/cli
 
@@ -69,7 +60,6 @@ ng serve
 
 ## Links
 
-* [Challenge Page](https://www.frontendmentor.io/challenges/frontend-quiz-app-BE7xkzXQnU)
 * [Live Demo](https://za-quiz.netlify.app/)
 
 ## Testing
