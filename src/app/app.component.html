@@ -1,0 +1,37 @@
+<img
+  [src]="imgDecorative()"
+  alt=""
+  class="absolute justTablet:translate-y-[-35%] w-full h-full"
+/>
+<div class="px-6 py-4 tablet:px-16 tablet:pt-10 desktop:pt-[84px]">
+  <div class="max-w-[1160px] mx-auto w-full relative">
+    <section
+      class="flex items-center gap-2 tablet:gap-4 absolute right-0 top-[10px] tablet:top-[14px]"
+      aria-label="toggle light dark theme"
+    >
+      <img
+        [src]="'images/icon-sun-' + imagePath() + '.svg'"
+        alt=""
+        class="size-4 tablet:size-6"
+      />
+      <div id="toggle-btn">
+        <input
+          type="checkbox"
+          id="switcher"
+          aria-label="Toggle dark light mode"
+          aria-live="polite"
+          class="hidden"
+          [attr.aria-checked]="isDarkTheme()"
+          [(ngModel)]="isDark"
+        />
+        <label for="switcher" class="switch-btn" aria-hidden="true"></label>
+      </div>
+      <img
+        [src]="'images/icon-moon-' + imagePath() + '.svg'"
+        alt=""
+        class="size-4 tablet:size-6"
+      />
+    </section>
+      <router-outlet></router-outlet>
+  </div>
+</div>
