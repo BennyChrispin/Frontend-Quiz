@@ -15,12 +15,6 @@
 <img src="./public/preview.jpg" alt="Design Preview" width="900">
 </p>
 
-### Outcome
-
-<p align="center">
-<img src="./public/outcome.gif" alt="Live Outcome" width="900">
-</p>
-
 ## Technologies
 
 The technologies used in this project are:
